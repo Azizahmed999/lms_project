@@ -1,4 +1,4 @@
-package com.hitms.lms.service;
+﻿package com.hitms.lms.service;
 
 import com.hitms.lms.exception.BookUnavailableException;
 import com.hitms.lms.model.Member;
@@ -32,4 +32,17 @@ public class LibraryService {
         }
         return null;
     }
+    /**
+     * Finds a member by name (added on feature/add-member-lookup).
+     *
+     * @param name member name to find
+     * @return the member, or null when the name is unknown
+     */
+    public Member findMemberByName(String name) {
+        if ("Aziz Ahmed".equals(name)) {
+            return new Member(1, "Aziz Ahmed");
+        }
+        return null;
+    }
 }
+
