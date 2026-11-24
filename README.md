@@ -7,3 +7,6 @@ Laptop screenshots must be taken fresh on the laptop for the final report.
 
 ## Labs progress
 Labs 01-04 code verified on the laptop (compile, runs, Checkstyle).
+
+## Lab completion notes
+All six SEC321L labs were built and verified on the laptop.
