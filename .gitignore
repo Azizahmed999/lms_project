@@ -1,0 +1,11 @@
+target/
+*.class
+.idea/
+*.iml
+.settings/
+.classpath
+lib/
+app.log
+target/
+
+evidence/
