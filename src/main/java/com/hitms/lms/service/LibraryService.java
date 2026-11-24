@@ -3,7 +3,7 @@
 import com.hitms.lms.exception.BookUnavailableException;
 import com.hitms.lms.model.Member;
 
-/** Lab 03/04/05 - book issuing and member lookup for the LMS. */
+/** Lab 03/04/05 - member lookup and book issuing service for the LMS. */
 public class LibraryService {
     /**
      * Issues one copy of a book if a copy is available.
@@ -45,4 +45,5 @@ public class LibraryService {
         return null;
     }
 }
+
 
